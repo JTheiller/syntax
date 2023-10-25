@@ -104,13 +104,13 @@ end;
 | Código | Descricao |
 | --- | --- |
 | 1 | Minhas descricao |
-| 2 | Outras descrição muito longa para analisar alinhamento |
+| 2 | Outras descrição `muito longa` para **analisar** alinhamento |
 | A | Teste |
 ```markdown
 | Código | Descricao |
 | --- | --- |
 | 1 | Minhas descricao |
-| 2 | Outras descrição muito longa para analisar alinhamento |
+| 2 | Outra descrição `muito longa` para **analisar** alinhamento |
 | A | Teste |
 ```
 
