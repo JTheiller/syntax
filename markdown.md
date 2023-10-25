@@ -101,17 +101,17 @@ end;
 ````
 
 # Tabelas - Tables
-| Código | Descricao |
-| --- | --- |
-| 1 | Minhas descricao |
-| 2 | Outras descrição `muito longa` para **analisar** alinhamento |
-| A | Teste |
+| Código | Descricao | Total |
+| :--- | :---: | ---: |
+| 1 | Minhas descricao | 0|
+| 2 | Outras descrição `muito longa` para **analisar** alinhamento | 10 |
+| A | Teste | 1000 |
 ```markdown
-| Código | Descricao |
-| --- | --- |
-| 1 | Minhas descricao |
-| 2 | Outra descrição `muito longa` para **analisar** alinhamento |
-| A | Teste |
+| Código | Descricao | Total |
+| :--- | :---: | ---: |
+| 1 | Minhas descricao | 0|
+| 2 | Outras descrição `muito longa` para **analisar** alinhamento | 10 |
+| A | Teste | 1000 |
 ```
 
 ## Destaque - Highlight
