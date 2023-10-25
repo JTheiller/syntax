@@ -65,9 +65,12 @@ Bloco de código - Code blocks
 ## Bloco de código com sintax de linguagem - Code blocks with language
 ````
 ```pascal
-Bloco de código - Code blocks
-Bloco de código - Code blocks
-Bloco de código - Code blocks
+procedure Somar;
+var
+  LocalVar: Integer;
+begin
+  //...
+end;
 ```
 ````
 ```pascal
