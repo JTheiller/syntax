@@ -14,22 +14,6 @@
 ###### Nível 6
 ```
 
-## Link e URLs
-- URL direta: https://github.com/JTheiller/sintax/edit/main/markdown.md
-```markdown
-https://github.com/JTheiller/sintax/edit/main/markdown.md
-```
-- Texto com URL: [JTheiller sintax Markdown](https://github.com/JTheiller/sintax/edit/main/markdown.md)
-```markdown
-[JTheiller sintax Markdown](https://github.com/JTheiller/sintax/edit/main/markdown.md)
-```
-
-## Cor - Color
-<font color="red">Texto com cor vermelha</font>
-```markdown
-<font color=\"red\">Texto com cor vermelha</font>
-```
-
 ## Negrito - Bold
 **Texto em negrito** ou __Texto em negrito__
 ```markdown
@@ -54,6 +38,30 @@ Combinado **_negrito com itálico_** é suportado
 Combinado **_negrito com itálico_** é suportado
 ```
 
+## Caixa de marcação - CheckBox
+- [ ] Desmarcada
+- [X] Marcada
+```markdown
+- [ ] Desmacada
+- [X] Desmacada
+```
+
+## Link e URLs
+URL direta: https://github.com/JTheiller/sintax/edit/main/markdown.md
+```markdown
+URL direta: https://github.com/JTheiller/sintax/edit/main/markdown.md
+```
+Texto com URL: [JTheiller sintax Markdown](https://github.com/JTheiller/sintax/edit/main/markdown.md)
+```markdown
+Texto com URL: [JTheiller sintax Markdown](https://github.com/JTheiller/sintax/edit/main/markdown.md)
+```
+
+## Cor - Color
+<font color="red">Texto com cor vermelha</font>
+```markdown
+<font color=\"red\">Texto com cor vermelha</font>
+```
+
 ## Código - Code
 Texto com `código`
 ````
@@ -73,7 +81,6 @@ Bloco de código - Code blocks
 ````
 
 ## Bloco de código com sintax de linguagem - Code blocks with language
-````
 ```pascal
 procedure Somar;
 var
@@ -91,6 +98,7 @@ begin
   //...
 end;
 ```
+````
 
 ## Destaque - Highlight
 ==Texto em destaque==
