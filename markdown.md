@@ -14,6 +14,16 @@
 ###### Nível 6
 ```
 
+## Link e URLs
+- URL direta: https://github.com/JTheiller/sintax/edit/main/markdown.md
+```markdown
+https://github.com/JTheiller/sintax/edit/main/markdown.md
+```
+- Texto com URL: [JTheiller sintax Markdown](https://github.com/JTheiller/sintax/edit/main/markdown.md)
+```markdown
+[JTheiller sintax Markdown](https://github.com/JTheiller/sintax/edit/main/markdown.md)
+```
+
 ## Cor - Color
 <font color="red">Texto com cor vermelha</font>
 ```markdown
@@ -44,7 +54,7 @@ Combinado **_negrito com itálico_** é suportado
 Combinado **_negrito com itálico_** é suportado
 ```
 
-## Código - Code blocks
+## Código - Code
 Texto com `código`
 ````
 Texto com `código`
@@ -82,8 +92,22 @@ begin
 end;
 ```
 
-# Destaque - Highlight
+## Destaque - Highlight
 ==Texto em destaque==
 ```markdown
 ==Texto em destaque==
 ```
+## Expressões matemáticas - Mathematical expressions
+- Utilize a senteça com delimitadores: `$[expressão]$`, ou bloco `math`.
+- Utiliza o simpolo `\` para especificar as formulas.
+
+$\sqrt{3x-1}+(1+x)^2$
+```
+$\sqrt{3x-1}+(1+x)^2$
+```
+$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$
+````
+```math
+\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+```
+````
