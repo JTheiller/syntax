@@ -100,11 +100,26 @@ end;
 ```
 ````
 
+# Tabelas - Tables
+| Código | Descricao |
+| --- | --- |
+| 1 | Minhas descricao |
+| 2 | Outras descrição muito longa para analisar alinhamento |
+| A | Teste |
+```markdown
+| Código | Descricao |
+| --- | --- |
+| 1 | Minhas descricao |
+| 2 | Outras descrição muito longa para analisar alinhamento |
+| A | Teste |
+```
+
 ## Destaque - Highlight
 ==Texto em destaque==
 ```markdown
 ==Texto em destaque==
 ```
+
 ## Expressões matemáticas - Mathematical expressions
 - Utilize a senteça com delimitadores: `$[expressão]$`, ou bloco `math`.
 - Utiliza o simpolo `\` para especificar as formulas.
