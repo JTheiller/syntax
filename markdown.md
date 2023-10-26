@@ -5,6 +5,7 @@
 #### Nível 4
 ##### Nível 5
 ###### Nível 6
+
 ```markdown
 # Nível 1
 ## Nível 2
@@ -19,7 +20,7 @@
 ```markdown
 **This is bold**, and so is __this__.
 ```
-
+  
 ## Itálico - Italic
 *Texto em itálico* ou _Texto em itálico_
 ```markdown
@@ -100,7 +101,38 @@ end;
 ```
 ````
 
-# Tabelas - Tables
+## Seções recolhidas - collapsed sections
+<details>
+<summary>Clique aqui para abrir a seção recolhida e ver os detalhes</summary>
+  
+## Header
+  
+You can add text within a collapsed section. 
+
+You can add an image or a code block, too.
+
+```ruby
+   puts "Hello World"
+```
+</details>
+
+````markdown
+<details>
+<summary>Clique aqui para abrir a seção recolhida e ver os detalhes</summary>
+  
+### Header
+  
+You can add text within a collapsed section. 
+
+You can add an image or a code block, too.
+
+```ruby
+   puts "Hello World"
+```
+</details>
+````
+
+## Tabelas - Tables
 | Código | Descricao | Total |
 | :--- | :---: | ---: |
 | 1 | Minhas descricao | 0|
