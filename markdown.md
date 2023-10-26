@@ -81,7 +81,7 @@ Bloco de código - Code blocks
 ```
 ````
 
-## Bloco de código com sintax de linguagem - Code blocks with language
+## Realce de sintaxe - Syntax highlighting
 ```pascal
 procedure Somar;
 var
