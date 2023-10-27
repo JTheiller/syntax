@@ -1,12 +1,12 @@
 A linguagem SQL (Structured Query Language) é uma ferramenta fundamental no mundo da gestão de bancos de dados, e compreender a sua sintaxe é essencial para extrair informações e manipular dados de forma eficaz. Neste documento, exploraremos a sintaxe da linguagem, desvendando os principais componentes que a compõem. Vamos mergulhar nos conceitos essenciais, desde a criação de tabelas e consultas simples até operações avançadas de junção, agregação e subconsultas. Ao final desta exploração, você terá uma compreensão sólida da estrutura e gramática da linguagem SQL, permitindo que você aproveite ao máximo seu potencial no gerenciamento e análise de dados. Vamos começar essa jornada pelo fascinante mundo da sintaxe SQL.
 
-## Operadores
-### Aritméticos - Arithmetic operators
+## Operators - Operadores
+### Arithmetic - Aritméticos
 - `+` Somar
 - `-` Subtrair
 - `*` Multiplicar
 - `/` Dividir
-### Operadores de comparação - Comparison operator
+### Comparison - Comparação
 - `=` igual
 - `<>` diferente
 - `>` Maior que
@@ -15,19 +15,19 @@ A linguagem SQL (Structured Query Language) é uma ferramenta fundamental no mun
 - `<=` Menor ou igual
 - `is null` é nulo
 - `is not null` não é nulo
-### Operadores de funções - Function operator
+### Functions - Funções
 - `start with` Iniciado com
 - `container` Contenha
 - `like [value]%` Inicie com
 - `like %[value]` Termine com
 - `like %[value]%` Contenha 
-- ### Operadores lógicos - Comparison operator
+### Logics - Lógicos
 - `AND` E
 - `OR` OU
 - `NOT` NÂO
 
 ## Select - Selecionar dados
-### Todos os campos - All fields
+### All fields - Todos os campos
 ```sql
 select * from PRODUTOS
 ```
@@ -81,7 +81,7 @@ from PRODUTOS
 rows 1 to 10;
 ```
 
-## ALIAS - Apelido de campos tabelas ou sql
+## Alias - Apelido de campos tabelas ou sql
 ```sql
 select
 P.ID
@@ -98,7 +98,7 @@ ID AS CODIGO
 from PRODUTOS
 ```
 
-## Contatenar - Concatenation operator
+## Concatenation - Contatenar valores
 - `||` Duplo pipe
 ```sql
 select ID || ' - ' || DESCRICAO as CAMPO_UNICO from PRODUTOS
@@ -120,6 +120,8 @@ select
 from
   PRODUTOS
 join MARCAS on MARCAS.ID = PRODUTOS.MARCA_ID
+inner join GRUPOS on GRUPOS.ID = PRODUTOS.GRUPO_ID
+left join CATEGORIAS on CATEGORIAS.ID = PRODUTOS.CATEGORIA_ID
 ```
 |ID|DESCRICAO|MARCA_ID|DESCRICAO_MARCA|
 |-|-|-|-|
