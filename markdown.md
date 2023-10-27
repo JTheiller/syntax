@@ -1,3 +1,5 @@
+O Markdown é uma linguagem de marcação simples, mas poderosa, amplamente utilizada para formatação de texto em ambientes digitais. Neste guia, iremos desvendar a sintaxe do Markdown, explorando os principais elementos que a compõem. Aprenderemos desde as noções básicas, como a formatação de texto, cabeçalhos e listas, até técnicas mais avançadas, como a inclusão de links, imagens e tabelas. Ao final desta exploração, você estará equipado com um sólido entendimento da estrutura e gramática do Markdown, permitindo que você crie documentos bem formatados de maneira eficiente em diversas plataformas online. Vamos começar a desvendar os segredos da sintaxe do Markdown e aproveitar ao máximo essa ferramenta versátil de formatação de texto.
+
 ## Cabeçalho - Header
 # Nível 1
 ## Nível 2
