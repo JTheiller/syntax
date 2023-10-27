@@ -42,17 +42,6 @@ select ID, DESCRICAO from PRODUTOS
 |-|-|
 |1|PRODUTO TESTE|
 
-### Contatenar - Concatenation operator
-- `||` Duplo pipe
-```sql
-select ID || ' - ' || DESCRICAO as CAMPO_UNICO from PRODUTOS
-```
-|CAMPO_UNICO|
-|-|
-|1 - PRODUTO TESTE|
-### Parametros input - Input parameters
-- `:[name]` Simbolo "Dois pontos" seguido do nome do parametro
-
 ## Where - Filtro
 - Listar todos os campos da tabela PRODUTOS
 - Definindo o seguinte filtro de dados
@@ -108,6 +97,19 @@ select
 ID AS CODIGO
 from PRODUTOS
 ```
+
+## Contatenar - Concatenation operator
+- `||` Duplo pipe
+```sql
+select ID || ' - ' || DESCRICAO as CAMPO_UNICO from PRODUTOS
+```
+|CAMPO_UNICO|
+|-|
+|1 - PRODUTO TESTE|
+
+## Parametros input - Input parameters
+- `:[name]` Simbolo "Dois pontos" seguido do nome do parametro
+
 ## Join - Relacionamentos
 ```sql
 select
