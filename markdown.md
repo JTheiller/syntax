@@ -41,7 +41,7 @@ Combinado **_negrito com itálico_** é suportado
 Combinado **_negrito com itálico_** é suportado
 ```
 
-## Caixa de marcação - CheckBox
+## Tarefas - Task lists
 - [ ] Desmarcada
 - [X] Marcada
 ```markdown
