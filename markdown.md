@@ -45,8 +45,8 @@ Combinado **_negrito com itálico_** é suportado
 - [ ] Desmarcada
 - [X] Marcada
 ```markdown
-- [ ] Desmacada
-- [X] Desmacada
+- [ ] Desmarcada
+- [X] Marcada
 ```
 
 ## Link e URLs
