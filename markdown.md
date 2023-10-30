@@ -41,6 +41,18 @@ Combinado **_negrito com itálico_** é suportado
 Combinado **_negrito com itálico_** é suportado
 ```
 
+## Subscript
+H<sub>2</sub>O
+```markdown
+H<sub>2</sub>O
+```
+
+## Superscript
+X<sup>2</sup>
+```markdown
+X<sup>2</sup>
+```
+
 ## Tarefas - Task lists
 - [ ] Desmarcada
 - [X] Marcada
