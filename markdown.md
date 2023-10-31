@@ -41,6 +41,14 @@ Combinado **_negrito com itálico_** é suportado
 Combinado **_negrito com itálico_** é suportado
 ```
 
+## Emoji
+:speech_balloon: Utulize o código entre `:` :+1:
+
+Doc: [emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet)
+```markdown
+:speech_balloon: Utulize o código entre `:` :+1:
+```
+
 ## Subscript
 H<sub>2</sub>O
 ```markdown
