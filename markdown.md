@@ -91,6 +91,14 @@ Texto com URL: [JTheiller sintax Markdown](https://github.com/JTheiller/sintax/e
 > Critical content demanding immediate user attention due to potential risks.
 ```
 
+## Comentário oculto - Hiding content with comments
+<!-- Esse comentário não será renderizado no Markdown -->
+Esse trexo possui um comentário oculto
+```markdown
+<!-- Esse comentário não será renderizado no Markdown -->
+Esse trexo possui um comentário oculto
+```
+
 ## Cor - Color
 <font color="red">Texto com cor vermelha</font>
 ```markdown
