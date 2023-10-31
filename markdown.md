@@ -71,6 +71,26 @@ Texto com URL: [JTheiller sintax Markdown](https://github.com/JTheiller/sintax/e
 Texto com URL: [JTheiller sintax Markdown](https://github.com/JTheiller/sintax/edit/main/markdown.md)
 ```
 
+## Alertas - Alerts
+> [!NOTE]
+> Highlights information that users should take into account, even when skimming.
+
+> [!IMPORTANT]
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]
+> Critical content demanding immediate user attention due to potential risks.
+```markdown
+> [!NOTE]
+> Highlights information that users should take into account, even when skimming.
+
+> [!IMPORTANT]
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]
+> Critical content demanding immediate user attention due to potential risks.
+```
+
 ## Cor - Color
 <font color="red">Texto com cor vermelha</font>
 ```markdown
