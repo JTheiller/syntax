@@ -399,3 +399,21 @@ solid cube_corner
 endsolid
 ```
 ````
+
+## Nota de rodapé - Footnote
+Anotacao 1 - Existirá uma anotação simples apresentada no rodapé de todo texto o arquivo[^1].
+
+Anotacao 2 - Existirá uma anotação com multiplas linhas apresentada no rodapé de todo texto o arquivo[^2].
+
+[^1]: Anotação 1 - Referência.
+[^2]: Anotações com multimas linhas, adicionado prefixo de duplo espaço.
+  Esta é a segunda linha.
+```markdown
+Anotacao 1 - Existirá uma anotação simples apresentada no rodapé de todo texto o arquivo[^1].
+
+Anotacao 2 - Existirá uma anotação com multiplas linhas apresentada no rodapé de todo texto o arquivo[^2].
+
+[^1]: Anotação 1 - Referência.
+[^2]: Anotações com multimas linhas, adicionado prefixo de duplo espaço.
+  Esta é a segunda linha.
+```
