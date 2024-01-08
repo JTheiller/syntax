@@ -18,30 +18,31 @@ O Markdown é uma linguagem de marcação simples, mas poderosa, amplamente util
 ```
 
 ## Divisor - Divider
+---
 ```markdown
 ---
 ```
----
 
 ## Lista numerada - Numbered List
+
+1. Descrição
+2. Descrição
+3. Descrição
 ```markdown
 1. Descrição
 2. Descrição
 3. Descrição
 ```
-1. Descrição
-2. Descrição
-3. Descrição
 
 ## Lista marcadores - Bulled List
+- Descrição
+- Descrição
+- Descrição
 ```markdown
 - Descrição
 - Descrição
 - Descrição
 ```
-- Descrição
-- Descrição
-- Descrição
 
 ## Negrito - Bold
 **Texto em negrito** ou __Texto em negrito__
@@ -145,7 +146,7 @@ Texto com `código`
 Texto com `código`
 ````
 
-## Bloco de código - Code blocks
+## Fragmento de código - Code snippet
 ```
 Bloco de código - Code blocks
 ```
