@@ -17,6 +17,32 @@ O Markdown é uma linguagem de marcação simples, mas poderosa, amplamente util
 ###### Nível 6
 ```
 
+## Divisor - Divider
+```markdown
+---
+```
+---
+
+## Lista numerada - Numbered List
+```markdown
+1. Descrição
+2. Descrição
+3. Descrição
+```
+1. Descrição
+2. Descrição
+3. Descrição
+
+## Lista marcadores - Bulled List
+```markdown
+- Descrição
+- Descrição
+- Descrição
+```
+- Descrição
+- Descrição
+- Descrição
+
 ## Negrito - Bold
 **Texto em negrito** ou __Texto em negrito__
 ```markdown
