@@ -178,6 +178,13 @@ end;
 ```
 ````
 
+
+## Teclas do teclado - Keyboard keys
+<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Del</kbd>
+````
+<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Del</kbd>
+````
+
 ## Seções recolhidas - collapsed sections
 <details>
 <summary>Clique aqui para abrir a seção recolhida e ver os detalhes</summary>
