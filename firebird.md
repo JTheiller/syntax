@@ -126,6 +126,18 @@ select ID || ' - ' || DESCRICAO as CAMPO_UNICO from PRODUTOS
 
 ## Parametros input - Input parameters
 - `:[name]` Simbolo "Dois pontos" seguido do nome do parametro
+> :CODIGO_DO_PRODUTO = 2
+```sql
+select
+ID
+from PRODUTOS
+WHERE
+ID <= :CODIGO_DO_PRODUTO
+```
+|ID|
+|-|
+|1|
+|2|
 
 ## Join - Relacionamentos
 ```sql
