@@ -87,16 +87,33 @@ select
 P.ID
 from PRODUTOS AS P
 ```
+|ID|
+|-|
+|1|
 ```sql
 select
 P.ID
 from PRODUTOS P
 ```
+|ID|
+|-|
+|1|
 ```sql
 select
 ID AS CODIGO
 from PRODUTOS
 ```
+|CODIGO|
+|-|
+|1|
+```sql
+select
+A.ID AS CODIGO
+from (select * from PRODUTOS) A
+```
+|CODIGO|
+|-|
+|1|
 
 ## Concatenation - Contatenar valores
 - `||` Duplo pipe
